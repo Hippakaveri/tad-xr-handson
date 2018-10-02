@@ -5,7 +5,7 @@
 * Install unity https://unity3d.com/ 
     * When installing Unity select _Vuforia Augmented Reality Support_ from the available install packages in the installer.
     * You can install the monodevelop editor or use a code editor of your choice
-* Clone repository https://ringo.leiden@innersource.accenture.com/scm/taax/taa17.git that contains all assets and instructions needed for the session
+* Clone repository https://github.com/Hippakaveri/tad-xr-handson.git that contains all assets and instructions needed for the session
 * We suggest bringing a mouse to the session because using the Unity editor with a trackpad can be difficult.
 
 ## Exercise 1 - Setting up the project
