@@ -1,4 +1,4 @@
-# **TAA 17 - XR**
+# **TECH ARCH DAY - XR**
 
 ## Prerequisites
 * You need a Laptop with a webcam for the exercises.
