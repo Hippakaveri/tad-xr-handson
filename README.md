@@ -36,7 +36,7 @@
 
 ##### 3. Modify and test 
 *By default Vudoria rotates the camera around the game world. for our purposes we need to move the game world instead. To change this select the AR Camera from the Unity scene. In the inspector under _Vuforia Behaviour (script)_ change the _World Center Mode_ to _DEVICE_.
-* Vuforia disables colliders when tracking is lost. This makes the ball fall off the playfield easily. To disable this behaviour open _DefaultTrackableEventHandler.cs_ from _Assets/Vuforia/Scripts_ and comment out lines 101-102 & 106-112.
+* Vuforia disables colliders when tracking is lost. This makes the ball fall off the playfield easily. To disable this behaviour open _DefaultTrackableEventHandler.cs_ from _Assets/Vuforia/Scripts_ and comment out lines 102 & 109-111.
 * The maze model and ball are very small in unity scale and with the default physics setting the ball might go through the colliders in the maze. To alleviate this go to _Edit>Project Settings>Physics_ and change the value of _Default contact offset_ to 0.01 or smaller.
 * Press play to test you game. Try to get to the center of the maze!
 * Congratulations, you have made an AR Game.
